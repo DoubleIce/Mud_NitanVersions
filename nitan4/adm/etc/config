@@ -1,0 +1,67 @@
+# 发布版本的服务器地址(local表示本地)
+release server : local
+
+# 版本服务器接收的客户端地址
+127.0.0.1 3000 : valid
+61.145.119.164 8888  : valid
+58.61.157.162 8899 : valid
+210.72.13.52 4000 : valid
+
+# 本地能够接纳的最大用户数目
+max users : 500
+
+# 本地限制巫师登录的等级
+wiz lock : 0
+
+# INTERNET互连网络中MUD的名字
+internet mud name : nitan.king
+
+# MUD的英文名字
+english mud name  : nitan
+
+# MUDOS
+mudos : NtOS v1.2-Current-64bits  
+
+# 编码方式
+encoding : GB
+
+# SMTP服务器地址/端口号
+smtp server : 202.108.255.210 25
+
+# SMTP服务器的名字
+smtp domain : smtp
+
+# 系统使用SMTP服务器时填写的发送者
+smtp sender : doinglu@163.net
+
+# SMTP认证信息
+smtp auth user : doinglu
+smtp auth password : 440301
+
+# 和本系统相联系的MUD服务器
+mudlist1 : 222.210.127.125 2004                 # 电信
+mudlist2 : 210.72.13.52 4004               # xo
+mudlist3 : 221.202.78.197 2004               # 辽宁
+mudlist4 : 218.89.171.162  2004              # 总站
+mudlist5 : 219.138.202.235 8804              # 屠
+
+zone : 总站
+
+# PK 限制
+max pk perday : 16
+max pk perman : 3
+
+# 玩家数据错误时是否要求重新创建玩家
+ask_recreate : 0
+
+# 数据库mysql所在的服务器地址
+mysql host : localhost
+mysql user : lonely
+mysql database : mud
+
+# 本地服务器的地址用来漫游确定玩家数据位置
+local host : 218.95.101.232
+
+# 设置了手工同步版本的标志
+# manual_synchronize : 1
+
