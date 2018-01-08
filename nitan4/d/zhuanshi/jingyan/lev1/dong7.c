@@ -1,0 +1,18 @@
+#include <room.h>
+#include <ansi.h>
+inherit ROOM;
+
+void create()
+{
+	set("short", CYN" Ø∂¥"NOR);
+        set("long", @LONG
+[36m’‚ «“ª∏ˆ∫⁄∆·∆· Ø∂¥£¨÷‹Œß∂º «º·”≤µƒ Ø±⁄°£ [2£ª37£ª0m
+LONG );
+	set("exits", ([
+		"south" : __DIR__"dong8",
+		"north" : __DIR__"dong6",
+                	]));
+	set("no_clean_up", 0);
+	setup();
+	replace_program(ROOM);
+}
