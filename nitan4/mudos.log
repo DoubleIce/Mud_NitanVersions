@@ -1,0 +1,68 @@
+
+<---泥潭: MudOs v22.2b14 (by Oukaya,May 25 2009) startup on Microsoft Windows NT at Thu Jul 19 18:23:57 2012
+
+using config file: E:\nitan4\config.cfg
+----------------------------------------------------------------------------
+泥潭 (MudOS v22.2b14) starting up on Microsoft Windows NT - Thu Jul 19 18:23:57 2012
+
+
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+Connection to address server (localhost 3990) refused.
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 2000.
+Accepting connections on port 4000.
+Accepting connections on port 6000.
+Accepting connections on port 8000.
+Initializing internal tables....
+
+<---泥潭: MudOs v22.2b14 (by Oukaya,May 25 2009) startup on Microsoft Windows NT at Fri Jun 23 19:03:15 2017
+
+using config file: E:\Documents\DownFiles\nitan4\config.cfg
+----------------------------------------------------------------------------
+泥潭 (MudOS v22.2b14) starting up on Microsoft Windows NT - Fri Jun 23 19:03:15 2017
+
+
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+Connection to address server (localhost 3990) refused.
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 2000.
+Accepting connections on port 4000.
+Accepting connections on port 6000.
+Accepting connections on port 8000.
+Connection to address server (localhost 3990) refused.
+Initializing internal tables....
+
+<---泥潭: MudOs v22.2b14 (by Oukaya,May 25 2009) startup on Microsoft Windows NT at Fri Jun 23 19:22:32 2017
+
+using config file: E:\Documents\DownFiles\nitan4\config.cfg
+----------------------------------------------------------------------------
+泥潭 (MudOS v22.2b14) starting up on Microsoft Windows NT - Fri Jun 23 19:22:32 2017
+
+
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+Connection to address server (localhost 3990) refused.
+
+Loading preloaded files ...
+Initializations complete.
+
+Accepting connections on port 2000.
+Accepting connections on port 4000.
+Accepting connections on port 6000.
+Accepting connections on port 8000.
+
+执行时段错误：*Bad Argument 1 to ctime()
+
+程式：/adm/daemons/logind.c 第 1607 行
+物件：/adm/daemons/logind
+呼叫来自：<function> 的 <function>() 第 0 行，物件： /adm/daemons/logind
+呼叫来自：/adm/daemons/logind.c 的 enter_world() 第 1607 行，物件： /adm/daemons/logind
+Initializing internal tables....
